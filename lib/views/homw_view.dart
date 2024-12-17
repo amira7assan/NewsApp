@@ -20,20 +20,20 @@ class HomeView extends StatelessWidget {
               'News',
               style: TextStyle(color: Colors.black),
             ),
-            Text(
-              'Cloud',
-              style: TextStyle(color: Colors.orange),
+             Text(
+               'Cloud',
+               style: TextStyle(color: Colors.orange),
             ),
           ],
         ),
       ),
       body: const Padding(
-        padding: EdgeInsets.symmetric(horizontal: 16),
-        child: CustomScrollView(
-          physics: BouncingScrollPhysics(),
-          slivers: [
-            SliverToBoxAdapter(child: CategorisListViews()),
-            SliverToBoxAdapter(
+         padding: EdgeInsets.symmetric(horizontal: 16),
+         child: CustomScrollView(
+           physics: BouncingScrollPhysics(),
+           slivers: [
+             SliverToBoxAdapter(child: CategorisListViews()),
+             SliverToBoxAdapter(
               child: SizedBox(
                 height: 32,
               ),
