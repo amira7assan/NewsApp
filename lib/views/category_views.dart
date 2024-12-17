@@ -11,7 +11,7 @@ class CategoryView extends StatelessWidget {
   final String category;
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return   Scaffold(
       body: CustomScrollView(
         slivers: [
           NewsListViewBuilder(
